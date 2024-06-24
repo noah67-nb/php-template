@@ -1,0 +1,38 @@
+$ORIGIN beta.mercurehosting.com.
+$TTL 86400
+@               IN SOA   (
+                         beta.mercurehosting.com ; MNAME
+                         noahbarnay.gmail.com    ; RNAME
+                         2024060403              ; SERIAL
+                         10800                   ; REFRESH
+                         3600                    ; RETRY
+                         1209600                 ; EXPIRE
+                         10800                   ; MINIMUM
+                         )
+
+; NS RECORDS
+@               IN NS    ns1.beta.mercurehosting.com.
+@               IN NS    ns2.beta.mercurehosting.com.
+
+; A RECORDS
+@               IN A     89.213.175.161
+ipv4            IN A     89.213.175.161
+mail            IN A     89.213.175.161
+ns1             IN A     89.213.175.161
+ns2             IN A     89.213.175.161
+webmail         IN A     89.213.175.161
+
+; CNAME RECORDS
+ftp             IN CNAME beta.mercurehosting.com.
+www             IN CNAME beta.mercurehosting.com.
+
+; MX RECORDS
+@               IN MX    10 mail.beta.mercurehosting.com.
+
+; TXT RECORDS
+@               IN TXT   "v=spf1 +a +mx +a:plesk.mercurehosting.com -all"
+_dmarc          IN TXT   "v=DMARC1; p=quarantine; adkim=s; aspf=s"
+_domainconnect  IN TXT   ( 
+                           "domainconnect.plesk.com/host/plesk.mercu"
+                           "rehosting.com/port/8443"
+                         )

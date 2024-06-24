@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de Mots de Passe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Générateur de Mots de Passe</h1>
+        <div class="password-generator">
+            <input type="number" id="length" placeholder="Longueur du mot de passe" min="1" max="100">
+            <button onclick="generatePassword()">Générer</button>
+        </div>
+        <div class="result">
+            <p id="password"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

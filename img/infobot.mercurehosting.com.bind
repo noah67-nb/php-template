@@ -1,0 +1,57 @@
+$ORIGIN infobot.mercurehosting.com.
+$TTL 86400
+@                   IN SOA   (
+                             infobot.mercurehosting.com ; MNAME
+                             noahbarnay.gmail.com       ; RNAME
+                             2024060405                 ; SERIAL
+                             10800                      ; REFRESH
+                             3600                       ; RETRY
+                             1209600                    ; EXPIRE
+                             10800                      ; MINIMUM
+                             )
+
+; NS RECORDS
+@                   IN NS    ns1.infobot.mercurehosting.com.
+@                   IN NS    ns2.infobot.mercurehosting.com.
+
+; A RECORDS
+@                   IN A     89.213.175.161
+ipv4                IN A     89.213.175.161
+mail                IN A     89.213.175.161
+ns1                 IN A     89.213.175.161
+ns2                 IN A     89.213.175.161
+webmail             IN A     89.213.175.161
+
+; CNAME RECORDS
+ftp                 IN CNAME infobot.mercurehosting.com.
+www                 IN CNAME infobot.mercurehosting.com.
+
+; MX RECORDS
+@                   IN MX    10 mail.infobot.mercurehosting.com.
+
+; TXT RECORDS
+@                   IN TXT   "v=spf1 +a +mx +a:plesk.mercurehosting.com -all"
+_dmarc              IN TXT   "v=DMARC1; p=quarantine; adkim=s; aspf=s"
+_domainconnect      IN TXT   ( 
+                               "domainconnect.plesk.com/host/plesk.mercu"
+                               "rehosting.com/port/8443"
+                             )
+_domainkey          IN TXT   "o=-"
+default._domainkey  IN TXT   ( 
+                               "v=DKIM1; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCA"
+                               "Q8AMIIBCgKCAQEAyx9QjNz4GKmN5lofvJLPeLxFc"
+                               "VZFehMITfOxx0tTPe0Sd/wROaI7/M3HlSoJi2oY9"
+                               "xjdJewVIfIrfm0BWTmIdb4m1104/sBEbzdm7Au2F"
+                               "QoksSLIDAeTn0Ij/mIlf0ElMLeZvGDwa/QzeC+sA"
+                               "wlXRISQ+xAFuVGkXb6RIO1NCbfJI8WT+89m3UNSV"
+                               "okzZq+vPV0b2xCfeCkZIMtDXzsenKBvLAQAL5Jli"
+                               "nE0G3JblnFnUuhYi48QKjNSBfU237Y9dMXWMhprU"
+                               "0T4fPLGjRQkh0GaVINJ0bai+X+0UawlScR3PyKIH"
+                               "yGHH6Mkq4eX3+Uv1s1pLxxhr/50y3+eJRx7CQIDA"
+                               "QAB;"
+                             )
+
+; SRV RECORDS
+_imaps._tcp         IN SRV   0 0 993 infobot.mercurehosting.com.
+_pop3s._tcp         IN SRV   0 0 995 infobot.mercurehosting.com.
+_smtps._tcp         IN SRV   0 0 465 infobot.mercurehosting.com.
