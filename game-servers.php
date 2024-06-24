@@ -12,7 +12,7 @@
     <meta name="bingbot" content="index, follow">
     <meta http-equiv="Content-Language" content="fr">
     <meta name="geo.region" content="Ca-fr">
-    <meta property="og:site_name" content="FlowHardware">
+    <meta property="og:site_name" content="Mercure Hosting">
     <meta property="og:image" content="https://mecurehosting.com/images/Design sans titre.png">
     <meta name="geo.placename" content="Canada, Montreal">
     <meta name="country" content="France">
