@@ -4,31 +4,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>VPS | Mercure Hosting</title>
-    <meta name="keywords" content="Mercure Hosting, Nova Life, Canada,Europe, Verycloud, France, Mercure Hosting, Heimdallhost, Hébergeur WEB, GTA RP, FiveM, Bot Discord Free, Bot discord, Nova pas cher, Nova serveur pas chers, FiveM serveur pas cher, Bon hebergeur Nova, Bon hébergeur, Hebergeur sans bug, hébegeur pas down, Anti DDOS, ">
-    <meta name="author" content="Mercure Hosting">
-    <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow">
-    <meta name="bingbot" content="index, follow">
-    <meta http-equiv="Content-Language" content="fr">
-    <meta name="geo.region" content="Ca-fr">
-    <meta property="og:site_name" content="Mercure Hosting">
-    <meta property="og:image" content="https://mecurehosting.com/images/Design sans titre.png">
-    <meta name="geo.placename" content="Canada, Montreal">
-    <meta name="country" content="France">
-    <meta name="country" content="Canada">
-    <meta name="Language" content="French">
-    <meta name="Geography" content="France">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Mercure Hosting - Accueil">
-    <meta property="og:description" content="Optez pour Mercure Hosting pour vos serveurs de jeux. Performances optimales et le panel de gestion le plus avancé du marché. Livraison immédiate garantie. ">
+
+    <title>VPS - leh</title>
+    <meta name="description" content="Beautiful modern hosting HTML template integrated with WHMCS.">
+    <meta name="author" content="AALayouts">
+
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/leh.css" rel="stylesheet">
     <link href="css/vegas.min.css" rel="stylesheet">
-    <!-- Favicons -->
-    <link href="img/logo03.png" rel="icon">
-    <link href="img/logo03.png" rel="apple-touch-icon">
+
   </head>
   <body class="web overlay">
 
@@ -44,7 +29,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="img/logo01.png"></a>
+          <a class="navbar-brand" href="#"><img src="logo.png"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -52,10 +37,9 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
 
-            <li><a href="index.php">Accueil</a></li>
-            <li ><a href="web-hosting.php">Hébergement WEB</a></li>
-            <li><a href="discord.php">Bot Discord</a></li>
-            <li class="active"><a href="vps.php">VPS</a></li>
+            <li class="active"><a href="index.php">Accueil</a></li>
+            <li><a href="web-hosting.php">Hébergement WEB</a></li>
+            <li><a href="dedicated-servers.php">Bot Discord</a></li>
             <li><a href="game-servers.php">Game Servers</a></li>
 
 
@@ -65,8 +49,8 @@
     </nav>
 
     <div class="container h">
-      <h1 class="animated bounceInLeft"><span>VPS </span><p></h1>
-      <h2 class="animated bounceInUp">Get dedicated resources and full control.</h2>
+      <h1 class="animated bounceInLeft"><span>Virtual Private </span> Server<p></h1>
+      <h2 class="animated bounceInUp">Take full control of your server.</h2>
     </div>
 
   </div>
@@ -74,67 +58,60 @@
   <div class="start">
     <div class="container">
 
-           <h2>choose your desired plan.</h2>
+           <h2>choose the plan that fits you most.</h2>
 
-           <div class="table-responsive">
-  <table class="table">
-    <thead>
-      <tr>
-        <th></th>
-        <th>Ram</th>
-        <th>Disk Space</th>
-        <th>CPU</th>
-        <th>CONNEXION</th>
-        <th>BASE DE DONNÉES</th>
-        <th>Price</th>
-        <th></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><img src="img/dedi.png"></td>
-        <td>1 GB DDR4</td>
-        <td>2 GB SSD</td>
-        <td>0.75vCore</td>
-        <td>Jusqu'à 1Gbits</td>
-        <td>1</td>
-        <td>0$/mo*</td>
-        <td><a href="#"><button class="btn btn-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Order</button></a></td>
-      </tr>
-      <tr>
-        <td><img src="img/dedi.png"></td>
-        <td>3 GB DDR4</td>
-        <td>2 GB SSD</td>
-        <td>2.5vCore</td>
-        <td>Jusqu'à 1Gbits</td>
-        <td>1</td>
-        <td>1.20$/mo*</td>
-        <td><a href="#"><button class="btn btn-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Order</button></a></td>
-      </tr>
-      <tr>
-        <td><img src="img/dedi.png"></td>
-        <td>6 GB DDR4</td>
-        <td>10 GB SSD</td>
-        <td>3.5vCore</td>
-        <td>Jusqu'à 1Gbits</td>
-        <td>2</td>
-        <td>2.50$/mo*</td>
-        <td><a href="#"><button class="btn btn-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Order</button></a></td>
-      </tr>
-      <tr>
-        <td><img src="img/dedi.png"></td>
-        <td>8 GB DDR4</td>
-        <td>10 GB SSD</td>
-        <td>4vCore</td>
-        <td>Jusqu'à 1Gbits</td>
-        <td>4</td>
-        <td>4.50$/mo*</td>
-        <td><a href="#"><button class="btn btn-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Order</button></a></td>
-      </tr>
-    </tbody>
-  </table>
-  </div>
+           <div class="row">
 
+              <div class="col-md-4">
+                    <h3><a href="#"><img src="img/vps.png"> Starter</a></h3>
+                    <hr>
+                    <ul>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> 1GB Ram</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> 40GB SSD Disk Space</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> 2TB Bandwidth</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> 2CPU Cores</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> 1 Ipv4</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> /64 Ipv6</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> SolusVM Panel</li>
+                    </ul>
+                    <hr>
+                      <h4>Only <span>1$/mo</span>. &ensp; <a href="#"><button class="btn btn-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Order</button></a></h4>
+              </div>
+
+              <div class="col-md-4">
+                    <h3><a href="#"><img src="img/vps.png"> Freelancer</a></h3>
+                    <hr>
+                    <ul>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> 2GB Ram</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> 60GB SSD Disk Space</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> 2TB Bandwidth</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> 2CPU Cores</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> 1 Ipv4</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> /64 Ipv6</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> SolusVM Panel</li>
+                    </ul>
+                    <hr>
+                      <h4>Only <span>2$/mo</span>. &ensp; <a href="#"><button class="btn btn-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Order</button></a></h4>
+              </div>
+
+              <div class="col-md-4">
+                    <h3><a href="#"><img src="img/vps.png"> Business</a></h3>
+                    <hr>
+                    <ul>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> 4GB Ram</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> 80GB SSD Disk Space</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> 4TB Bandwidth</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> 2CPU Cores</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> 1 Ipv4</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> /64 Ipv6</li>
+                      <li><i class="fa fa-check-square-o" aria-hidden="true"></i> SolusVM Panel</li>
+                    </ul>
+                    <hr>
+                      <h4>Only <span>4$/mo</span>. &ensp; <a href="#"><button class="btn btn-success"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Order</button></a></h4>
+              </div>
+              <p>* You can upgrade anytime.</p>
+
+           </div>
 
     </div>
   </div>
@@ -144,27 +121,32 @@
       <div class="row">
 
               <div class="col-md-7">
-                  <h3><i class="fa fa-star" aria-hidden="true"></i> Why our Servers, <small>are the best</small></h3>
+                  <h3><i class="fa fa-star" aria-hidden="true"></i> Why our VPS, <small>is the best</small></h3>
 
 
-                  <h2>puissant et rapide</h2>
+                  <h2>your machine, your rules.</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In libero mauris, molestie at lectus non,
+                     volutpat ornare arcu.</p>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In libero mauris, molestie at lectus non,
+                        volutpat ornare arcu.</p>
               </div>
 
 
-              <!-- <div class="col-md-5">
+              <div class="col-md-5">
                 <h2><i class="fa fa-question-circle-o" aria-hidden="true"></i> FAQ.</h2>
                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 <div class="panel panel-default">
   <div class="panel-heading" role="tab" id="headingOne">
     <h4 class="panel-title">
       <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Are the dedi's managed?
+        Are the VPS's managed?
       </a>
     </h4>
   </div>
   <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
     <div class="panel-body">
-       Although we provide basic support for our clients, the dedi's are unmanaged and the client is responsible for their own data.
+       Although we provide basic support for our clients, the VPS's are unmanaged and the client is responsible for their own data.
     </div>
   </div>
 </div>
@@ -216,7 +198,7 @@
        material on our web host.
     </div>
   </div>
-</div> -->
+</div>
 
 </div>
 
@@ -229,11 +211,12 @@
 
     <div class="support">
       <div class="container">
-      <h3>Vous avez une question ? <a href="#"><button class="btn btn-success"><i class="fa fa-ticket" aria-hidden="true"></i> Contactez nous</button></a></h3>
+        <h3>Have a question? Need help? <a href="#"><button class="btn btn-success"><i class="fa fa-ticket" aria-hidden="true"></i> Contact us</button></a></h3>
       </div>
     </div>
 
     <?php include 'includes/footer.php' ?>
+
 
 
   </body>

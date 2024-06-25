@@ -7,14 +7,14 @@
            <li><a href="discord.php">Bot Discord</a></li>
            <li><a href="game-servers.php">Game Servers</a></li>
            <li><a href="#">Contact us</a></li>
-           <li><a href="https://statut.mercurehosting.com/">Statut de nos service</a></li>
          </div>
 
            <div class="col-md-3">
                <li><a href="#">Announcements</a></li>
                <li><a href="https://infobot.mercurehosting.com/">Nos Bot</a></li>
                <li><a href="https://forms.office.com/r/nm1L8JaCUk">Recrutement</a></li>
-               <li><a href="tos.php">Terms of Service</a></li>
+               <li><a href="http://status.mercurehosting.com/">Statut de nos service</a></li>
+               <li><a href="mentions-legales.php">Legal</a></li>
            </div>
 
            <div class="col-md-2">
@@ -26,7 +26,6 @@
              <img class="flogo" src="/img/logo01.png">
              <p></p>
              <p><small>MercureHosting © 2023-2024 All Rights Reserved.</small></p>
-             <iframe src="https://statut.mercurehosting.com/badge?theme=dark" width="250" height="30" frameborder="0" scrolling="no"></iframe>
            </div>
               
 
